@@ -1,18 +1,18 @@
 import React from "react"
 import './Navbar.css'
- function Navbar () {
+import imagenCarrito from '../../assets/img/carrito.png'
+import logo from '../../assets/img/logo.png'
+function Navbar() {
 
     return (
         <nav className="navbar">
-            <div >
-                <div className="navbar-logo">logo</div>
+            <img className="nav-logo" src={logo} alt="logo" />
+            <img className="nav-carrito" src={imagenCarrito} alt="carrito" />
+            <div className="nav-button">
+                <button className="button1">Gaming</button>
+                <button className="button2">Escritorios Gaming</button>
             </div>
-            <ul className="navbar-menu">
-                <li className="hogar"></li>
-                <li className="computacion"></li>
-                <li className="set/stream"></li>
-            </ul>
         </nav>
     )
- }
- export default Navbar
+}
+export default Navbar

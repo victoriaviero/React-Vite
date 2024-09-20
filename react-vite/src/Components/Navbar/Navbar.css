@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background-color: #070501;
   padding: 10px 20px;
   color: white;
 }
@@ -14,4 +14,35 @@
 }
 .navbar-item {
   margin-left: 20px;
+}
+.nav-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.nav-logo {
+  margin-right: auto;
+}
+.button1 {
+  margin: 20px;
+  padding: 13px;
+  background-color: #070501;
+  color: #FCC419;
+  border-radius: 25px;
+  border-color: #FCC419;
+  font-size: medium;
+  font-weight: bold;
+}
+.button2 {
+  margin: 20px;
+  padding: 13px;
+  background-color: #070501;
+  color: #FCC419;
+  border-radius: 25px;
+  border-color: #FCC419;
+  font-size: medium;
+  font-weight: bold;
 }
